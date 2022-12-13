@@ -48,8 +48,6 @@
 .drop-down-menu {
 
     position: absolute;
-    
-    z-index: 100;
 
     right: 1.125rem;
 
@@ -61,6 +59,11 @@
     display: none;
     
     
+}
+
+.black-cover {
+
+    display: none;
 }
 
 @media (max-width: 480px) {
@@ -86,6 +89,18 @@
         display: grid;
         grid-template-columns: 1fr;
         row-gap: 0.8rem;
+
+        z-index: 200;
+    }
+
+    .blank-cover-on {
+        position: absolute;
+        z-index: 100;
+
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
     }
 }
 
