@@ -42,7 +42,7 @@ header {
     cursor: pointer;
 }
 
-@media (max-device-width: 480px) {
+@media (max-width: 480px) {
 
     .navigation-link {
         display: none;
