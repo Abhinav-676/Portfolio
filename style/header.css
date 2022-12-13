@@ -63,13 +63,6 @@
     
 }
 
-.drop-down-menu-display {
-
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 0.8rem;
-}
-
 @media (max-width: 480px) {
 
     .navigation-link {
@@ -86,6 +79,13 @@
         padding-right: 1.125rem;
         padding-top: 1.25rem;
         padding-bottom: 0.75rem;
+    }
+
+    .drop-down-menu-display {
+
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 0.8rem;
     }
 }
 
