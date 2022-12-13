@@ -1,0 +1,60 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+
+    padding-left: 3.75rem;
+    padding-right: 3.75rem;
+    padding-top: 1.6875rem;
+}
+
+.menu-button img {
+
+    display: block;
+
+    width: 1.875rem;
+    height: 1.25rem;
+}
+
+.navigation-link {
+
+    display: grid;
+    grid-template-columns: repeat(3, min-content);
+    column-gap: 2.0625rem;
+
+}
+
+.navigation-link a {
+
+    text-decoration: none;
+    color: inherit;
+
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.navigation-link a:hover {
+
+    color: var(--primary);
+    cursor: pointer;
+}
+
+@media (min-width: 376px) {
+    .menu-button {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .navigation-link {
+        display: none;
+    }
+
+    header {
+    
+        padding-left: 1.125rem;
+        padding-right: 1.125rem;
+        padding-top: 1.25rem;
+    }
+}
+

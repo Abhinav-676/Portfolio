@@ -1,0 +1,28 @@
+:root {
+    /* Font */
+    font-family: 'Heebo', sans-serif;
+    color: var(--dark);
+    font-size: 16px;
+
+    /* html */
+    
+
+    /* Color */
+    --primary: #FF6464;
+    --secondary: #00A8CC;
+    --dark: #21243D;
+    --light: #8695A4;
+    
+}
+
+body {
+    margin: 0px;
+}
+
+@media (min-width: 1153px)
+{
+    :root {
+        font-size: 1.39vw;
+    }
+
+}
