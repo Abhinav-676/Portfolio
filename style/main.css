@@ -42,7 +42,7 @@
     .hero-section {
 
         grid-template-columns: 31.625rem;
-        padding-top: 2.0625rem;
+        padding-top: 8.8vw;
 
         row-gap: 2.696rem;
 
@@ -71,6 +71,6 @@
     .hero-section {
         grid-template-columns: 1fr;
 
-        margin: 6.4vw;
+        margin: 0 6.4vw;
     }
 }
