@@ -68,6 +68,11 @@
 
 @media (max-width: 539px)
 {
+    .hero-section-left-first-child {
+        font-size: 2.2rem;
+        font-weight: 700;
+    }
+
     .hero-section {
         grid-template-columns: 1fr;
 
