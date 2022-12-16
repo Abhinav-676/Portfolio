@@ -106,16 +106,16 @@
 
     .hero-section {
 
-        max-width:  31.625rem;
-
         grid-template-columns: 1fr;
-        padding-top: 8.8vw;
-
         row-gap: 2.696rem;
 
-        text-align: center;
+        padding-top: 8.8vw;
+        padding-left:  6.4vw;
+        padding-right: 6.4vw;
+        
+        max-width:  31.625rem;
 
-        padding: inherit 6.4vw;
+        text-align: center;
     }
 
     .hero-section-right {
