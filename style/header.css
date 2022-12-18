@@ -96,12 +96,6 @@
 
 @media (max-width: 480px) {
 
-    .navigation-bar {
-
-        box-shadow: 0px 2px 4px rgba(82, 82, 82, 0.25);
-
-    }
-
     .navigation-link {
         display: none;
     }
