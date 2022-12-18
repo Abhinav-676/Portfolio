@@ -77,12 +77,6 @@
     z-index: 200;
 }
 
-.drop-down-menu-display {
-
-    height: 120px;
-    opacity: 1;
-}
-
 .drop-down-menu div {
     height: fit-content;
 
@@ -102,6 +96,12 @@
 
     .menu-button {
         display: initial;
+    }
+
+    .drop-down-menu-display {
+
+        height: 120px;
+        opacity: 1;
     }
 
     .navigation-bar {
